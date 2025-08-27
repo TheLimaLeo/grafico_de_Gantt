@@ -18,7 +18,9 @@ B --> |NÃO| D[Reprovado];
 gantt
   title Exemplo de Gráfico de Gantt
 dateFormat YYYY-MM-DD
-section 1ºBimestre
+section 1ºSemestre
 1º Bimestre: a1, 2025-02-03, 60d
+2º Bimestre: a2, after a1, 60d
 section 2ºBimestre
+
 ```
