@@ -25,3 +25,27 @@ gantt
   3º Bimestre ⏳Em Andamento:active, a3, 2025-08-01, 60d
   4º Bimestre ⏳Em Andamento:crit, a4, after a3, 60d
 ```
+Exercício não avaliativo
+
+```mermaid
+gantt
+    title Construção de uma Casa
+    dateFormat DD-MM-YYYY
+    axisFormat %d/%m
+
+    section Fase 1: Fundação
+    Fundação :a1, 10-09-2025, 15d
+
+    section Fase 2: Estrutura
+    Estrutura da Casa :a2, after a1, 30d
+
+    section Fase 3: Instalações
+    Instalações Elétricas e Hidráulicas :a3, after a2, 20d
+
+    section Fase 4: Acabamento
+    Acabamento Interno :a4, after a3, 25d
+    Acabamento Externo :a5, after a4, 15d
+
+    section Fase 5: Finalização
+    Inspeção e Entrega :a6, after a5, 5d
+```
