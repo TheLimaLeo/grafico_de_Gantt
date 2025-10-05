@@ -51,7 +51,6 @@ gantt
 ```
 ```mermaid
 gantt
-    gantt
     title Projeto: Sistema de Cadastro de Empresas
     dateFormat  YYYY-MM-DD
     -- Define o formato do eixo para mostrar o número da semana
